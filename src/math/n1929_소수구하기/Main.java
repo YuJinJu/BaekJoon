@@ -17,7 +17,7 @@ public class Main {
         for (int i=2;i*i<=n;i++){
             if(arr[i]) continue;
 
-            for (int j=i+i;j<=n;j+=i){
+            for (int j=i+i;j<=n;j+=i){ //초기값 더해줌 i+i
                 arr[j] = true;
             }
         }

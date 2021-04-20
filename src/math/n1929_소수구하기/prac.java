@@ -13,7 +13,7 @@ public class prac {
         for (int i=2;i*i<=m;i++){
             if(check[i]) continue;
 
-            for (int j=i*i;j<=m;j+=i){
+            for (int j=i*i;j<=m;j+=i){ //초기값 곱해줌 i*i
                 check[j] = true;
             }
         }
