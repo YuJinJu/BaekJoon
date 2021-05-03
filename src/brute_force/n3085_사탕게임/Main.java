@@ -50,7 +50,14 @@ public class Main {
                 if (j+1 < n) { //오른쪽
                     char t = a[i][j]; a[i][j] = a[i][j+1]; a[i][j+1] = t; //교환
                     int temp = check(a); //가장 긴 사탕 찾기
-                    if (ans < temp) ans = temp;
+                    if (ans < temp) {
+                        ans = temp;
+                        for (char [] k: a){
+                            for (char l :k) System.out.print(l);
+                            System.out.println();
+                        }
+                        System.out.println(ans);
+                    }
                     t = a[i][j]; a[i][j] = a[i][j+1]; a[i][j+1] = t; //모든 경우를 검사해야 하기 때문에 교환한것 다시 원래대로
                 }
                 if (i+1 < n) { //아래
