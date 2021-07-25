@@ -9,7 +9,6 @@ public class Main {
 		System.out.println("( 0 )\"\"\"\\");
 		System.out.println("|\"^\"`    |");
 		System.out.println("||_/=\\\\__|");
-		//"를 출력하려면 역슬래시를 "앞에 붙인다
 /*
 |\_/|
 |q p|   /}
