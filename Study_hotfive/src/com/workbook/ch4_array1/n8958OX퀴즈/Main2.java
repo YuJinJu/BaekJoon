@@ -23,10 +23,10 @@ public class Main2 {
 				else count=0;
 				sum +=count;
 			}
-			bw.write(sum +"\n");
+			bw.write(sum +"\n");	//저장
 			
 		}
-		bw.flush();
+		bw.flush();	//출력
 		bw.close();
 	}
 
