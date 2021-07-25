@@ -17,7 +17,7 @@ public class Main {
 			String [] str = br.readLine().split(" ");
 			int a = Integer.parseInt(str[0]); 
 			int b = Integer.parseInt(str[1]); 
-			bw.write(a+b +"\n");
+			bw.write(a+b +"\n");	//"\n"를 해줘야 int로 변환됨
 		}
 		bw.flush();
 		bw.close();

@@ -22,10 +22,10 @@ public class Main {
 			int index = result.charAt(i) -'0';
 			arr[index]++;
 		}
-//		System.out.println(result.charAt(8));
-//		System.out.println(result);
-//		System.out.println(result.length());
-		for(int i :arr) System.out.println(i);
+
+		for(int i :arr) bw.write(i+"\n");
+		bw.flush();
+		bw.close();
 	}
 
 }
@@ -34,4 +34,16 @@ input
 150
 266
 427
+
+output
+3
+1
+0
+2
+0
+0
+0
+2
+0
+0
  */
