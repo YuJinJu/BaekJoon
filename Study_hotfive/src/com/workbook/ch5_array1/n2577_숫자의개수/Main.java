@@ -1,4 +1,4 @@
-package com.workbook.ch4_array1.n2577_숫자의개수;
+package com.workbook.ch5_array1.n2577_숫자의개수;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

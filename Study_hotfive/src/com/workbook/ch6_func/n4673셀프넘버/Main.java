@@ -1,4 +1,4 @@
-package com.workbook.ch5_func.n4673셀프넘버;
+package com.workbook.ch6_func.n4673셀프넘버;
 
 public class Main {
 	static int d(int num){
