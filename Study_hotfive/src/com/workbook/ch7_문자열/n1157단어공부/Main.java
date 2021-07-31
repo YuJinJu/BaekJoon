@@ -18,17 +18,17 @@ public class Main {
 		int max = 0; 
 		char result = ' ';
 		
-		//char [] c = new char[str.length()];
 		for(int i=0;i<str.length();i++) {
 			for(char j='A';j<='Z';j++) {
-				char s= (char) (j+32);
-				if(str.charAt(i)==j || str.charAt(i) == s) {	//대문자 + 32 = 소문자, 소문자 - 32 = 대문자
+				char s= (char) (j+32);	//대문자 + 32 = 소문자, 소문자 - 32 = 대문자
+				if(str.charAt(i)==j || str.charAt(i) == s) {	
 					arr[j-65]++;	//배열 0부터 넣어주기 //A --> 65
 					
 					if(max<arr[j-65]) {
 						max = arr[j-65];
 						result = j;
 					}
+					
 					if(max==arr[j-65] && result != j) result = '?';
 					break;
 				}
