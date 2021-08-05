@@ -52,8 +52,8 @@ public class Main3 {
             while (select[i] - w > 0 && select[i] + w <= n) {
                if (status[select[i]-w] == status[select[i]+w]) {
                   flag = true;
-                  before = select[i] - w;// 2 1
-                  after = select[i] + w;// 4 5
+                  before = select[i] - w;	// 2 1
+                  after = select[i] + w;	// 4 5
                   w++;
                }else
                   break;
